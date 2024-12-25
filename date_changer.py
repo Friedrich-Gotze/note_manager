@@ -1,14 +1,15 @@
 
-username = "Иван"
-title = "Море"
-content = "Лазурное"
-status = "Активен"
-created_date = "10-11-2024"
-issue_date = "15-11-2024"
+username = input("Имя пользователя: ")
+title = input("Заголовок: ")
+content = input("Описание: ")
+status = input("Статус: ")
+created_date = input("Дата создания в формате дд-мм-гг, например 10-11-2024: ")
+issue_date = input("Дата истечения в формате дд-мм-гг, например 10-11-2024: ")
 
-print("Имя пользователя:", username)
-print("Заголовок:", title)
-print("Описание:", content)
-print("Статус:", status)
-print("Дата создания:", created_date[:5])
-print("Дата истечения:", issue_date[:5])
+print("Вы ввели следующие данные: ")
+print("Имя пользователя: ", username)
+print("Заголовок: ", title)
+print("Описание: ", content)
+print("Статус: ", status)
+print("Дата создания: ", created_date [:5])
+print("Дата истечения: ", issue_date [:5])
